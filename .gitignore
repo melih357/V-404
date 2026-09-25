@@ -1,0 +1,15 @@
+# Local Wamp/database credentials
+.env
+
+# User uploaded files and generated application data
+/uploads/*
+!/uploads/.htaccess
+/storage/*
+!/storage/.htaccess
+
+# Local dependencies and transient outputs
+node_modules/
+qa/
+*.log
+.DS_Store
+Thumbs.db
